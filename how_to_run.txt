@@ -1,0 +1,13 @@
+Terminal 1 — Backend
+
+cd "c:\Users\priya\OneDrive\Desktop\traffic_flow _AI_final\trafficflow-ai\backend"
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+Terminal 2 — Frontend
+
+cd "c:\Users\priya\OneDrive\Desktop\traffic_flow _AI_final\trafficflow-ai\frontend"
+npm install
+npm run dev
+Then open http://localhost:3000 in your browser.
